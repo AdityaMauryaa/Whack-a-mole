@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whack A MOLE</title>
     <link rel="stylesheet" href="mole.css">
-    <script src="mole.js"></script>
+    <script src="mole.js" defer></script>
 </head>
-<body src >
+<body>
     <h1>WHACK A MOLE</h1>
-    <h2 id ="score"> 0 </h2>
-    <div id="board">
-        <!--3 X 3-->
+    <h3 id="timer">Time: 60</h3>
+    <h2 id="score">Score: 0</h2>
+    <div id="board"></div>
+    <div id="restartButton" style="display:none;">
+        <button id="button" onclick="restartGame()">Restart Game</button>
     </div>
-
 </body>
 </html>
